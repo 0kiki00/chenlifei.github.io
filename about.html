@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="zh-CN" style="color-scheme: dark;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asorn - About Me</title>
+    <link rel="stylesheet" href="./css/style.min.css">
+    <link rel="shortcut icon" href="./assets/public/favicon.svg"/>
+</head>
+<body>
+    <canvas class="fireworks"></canvas>
+    <div class="head">
+        <div class="main">
+            <a href="./index.html" class="logo"><img src="./assets/public/logo_text.svg"></a>
+            <div class="menu">
+                <li class="magical btn" onclick="window.location.href='./index.html'">首页</li>
+                <li class="magical btn" onclick="window.location.href='./work.html'">作品集</li>
+        
+                <li class="magical btn nav" onclick="window.location.href='./about.html'">关于我</li>
+            </div>
+            <div class="menu" id="menu-expand">
+                <li class="magical btn skin" id="menu-expand-child"><i class="icon menu-icon"></i></li>
+            </div>
+            <div id="menu-panel">
+                <div class="menu-panel-content">
+                    <li class="magical btn" onclick="window.location.href='./index.html'">首页</li>
+                    <li class="magical btn" onclick="window.location.href='./work.html'">作品集</li>
+            
+                    <li class="magical btn nav" onclick="window.location.href='./about.html'">关于我</li>
+                </div>
+            </div>
+        </div>
+        <blockquote><img src="./assets/public/logo.svg"></blockquote>
+    </div>
+    <div class="about">
+        <div class="about-top">
+            <div class="about-name">陈历菲</div>
+            <div class="about-info">
+                <div class="about-info-left">
+                    <div class="about-info-title">简介</div>
+                    <div class="introduce-desc">
+                    </ul>
+                </li>你好呀！我是陈历菲，一名25岁的平面设计师👩‍🎨，毕业于湖南师范大学函授本科。别看我年纪轻轻，已经有3年的设计经验啦！在这个过程中，我玩转了各种设计软件，比如AI、PS、PR、ID，甚至还 dabble with AE！✨
+                <br>
+                <br>
+                <li>工作中，我可是个不折不扣的“设计狂人”🎨，从手机主题到品牌策划，再到广告海报、折页宣传，我都独当一面。特别是我从零打造的电商品牌设计项目，每一个细节我都亲自把关，绝不含糊👍。
+                <br>
+                <br>
+                <li>我喜欢不断探索新鲜事物🧐，总是在国内外的设计网站上找灵感，学习最新的设计趋势。和团队合作时，我是那个能让大家团结一致、解决难题的小伙伴👯‍♂️，遇到问题，我的脑袋里总是闪现出各种点子💡。
+                <br>
+                <br>
+                <li>期待有机会加入你们的团队，让我们一起搞大事情！🙌 <a href="http://epub.cnipa.gov.cn/" target="_blank">
+        </div>
+                </div>
+                <div class="about-info-right">
+                    <div class="contact">
+                        <div class="about-info-title">Contact</div>
+                        <div class="contact-desc">
+                            <div class="list">
+                                <div class="list-label">Email：</div>
+                                <div href="javascript:" class="list-value" id="email" tabindex="0" role="button"  title="点击复制邮箱">
+                                    <a id="emailCopied">1046780508@qq.com</a>
+                                </div>
+                                <span class="list-value copied">copied&nbsp;✓</span>
+                            </div>
+                            <div class="list">
+                                <div class="list-label">Wechat：</div>
+                                <div class="list-value">
+                                    <a class="tooltip">Liberty9208
+                                        <div class="tooltip-box">
+                                            <img src="./assets/about/wechat.png">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="resume">
+                        <div class="about-info-title resume-title">Resume</div>
+                        <div class="resume-desc">
+                            <div class="resume-desc-helptext">下载我的作品集(PDF & 1MB)</div>
+                            <div class="magical resume-btn"><a href="https://asorn.cn/" target="_blank">Download</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about-middle">
+            <div class="power">
+                <div class="list-00">
+                    <div class="magical power-card-number">
+                        <a>
+                            <div class="card-title">3</div>
+                            <div class="card-text">工作经验</div>
+                        </a>
+                    </div>
+                    <div class="magical power-card-number">
+                        <a>
+                            <div class="card-title">10⁺</div>
+                            <div class="card-text">制定完整方案</div>
+                        </a>
+                    </div>
+                    <div class="magical power-card-number">
+                        <a>
+                            <div class="card-title">15⁺</div>
+                            <div class="card-text">涉及领域</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="list-01">
+                    <div class="magical power-card">
+                        <a>
+                            <div class="card-img" style="background-image: url('./assets/about/abstract.svg')"></div>
+                            <div class="card-text">擅长软件PS.AI.CDR.PR.AE.BLENDER</div>
+                        </a>
+                    </div>
+                    <div class="magical power-card">
+                        <a>
+                            <div class="card-img" style="background-image: url('./assets/about/menu.svg')"></div>
+                            <div class="card-text">撰写策划案</div>
+                        </a>
+                    </div>
+                    <div class="magical power-card">
+                        <a>
+                            <div class="card-img" style="background-image: url('./assets/about/code.svg')"></div>
+                            <div class="card-text">精准把握用户需求和产品定位</div>
+                        </a>
+                    </div>
+                    <div class="magical power-card">
+                        <a>
+                            <div class="card-img" style="background-image: url('./assets/about/pin.svg')"></div>
+                            <div class="card-text">深度参与产品开发全部流程</div>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="about-bottom">
+            <div class="experience">
+                <div class="item">
+                    <div class="time">❖ 2024.04 - 2024.07</div>
+                    <div class="name">
+                        <div class="company"><a href="https://asorn.cn/" target="_blank">云之信科技公司 ↗</a></div>
+                        <div class="job">平面设计</div>
+                    </div>
+                    <div class="project-experience">
+                        <div class="item">
+                            <div class="title">项目经历</div>
+                            <div class="desc">
+                                <ul>
+                                    <li>主要职责：负责公司日常宣传物料设计，包括公众号及视频号的封面、海报、活动视觉元素及视频剪辑。
+                                        <li>视觉统筹：为公司大型活动设计整体视觉方案，确保活动品牌形象的统一与突出。
+                                        <li>品牌文化墙设计：参与公司内部文化墙设计，结合企业文化与视觉创意，打造具有吸引力的展示空间。
+                                        <li>多媒体设计：参与视频拍摄及剪辑，确保视觉内容与宣传文案的契合，提供具有视觉冲击力的宣传效果。
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="time">❖ 2023.05 - 2024.01</div>
+                    <div class="name">
+                        <div class="company"><a href="https://asorn.cn/" target="_blank">湖南启善尚行公司 ↗</a></div>
+                        <div class="job">平面设计</div>
+                    </div>
+                    <div class="project-experience">
+                        <div class="item">
+                            <div class="title">项目经历</div>
+                            <div class="desc">
+                                <ul>
+                                    <li>主要职责：负责公司日常宣传物料设计，包括公众号及视频号的封面、海报、活动视觉元素及视频剪辑。
+                                        <li>视觉统筹：为公司大型活动设计整体视觉方案，确保活动品牌形象的统一与突出。
+                                        <li>品牌文化墙设计：参与公司内部文化墙设计，结合企业文化与视觉创意，打造具有吸引力的展示空间。
+                                        <li>多媒体设计：参与视频拍摄及剪辑，确保视觉内容与宣传文案的契合，提供具有视觉冲击力的宣传效果。
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="time">❖ 2021.11 - 2022.05</div>
+                    <div class="name">
+                        <div class="company"><a href="https://asorn.cn/" target="_blank">湖南芒果新纯有限公司 ↗</a></div>
+                        <div class="job">视觉设计师</div>
+                    </div>
+                    <div class="project-experience">
+                        <div class="item">
+                            <div class="title">项目经历</div>
+                            <div class="desc">
+                                <ul>
+                                    <li>通过和客户面对面沟通、实地拜访等方式，了解客户业务特点，深挖客户个性需求，确定合适的品牌调性和设计方向。
+                                        <li>负责公司各类线上线下活动的视觉设计工作，包括电商平台的整体视觉风格、品牌形象设计及招商物料设计。
+                                        <li>品牌全案设计：参与从0到1打造品牌电商平台的设计工作，独立完成品牌的标志、色彩规范、主视觉等设计要素。
+                                        <li>电商平台设计：负责直播电商平台的视觉布局与广告页面设计，确保界面设计美观且用户体验良好。
+                                        <li>宣传物料设计：为招商活动设计宣传画册、海报、折页及户外广告，确保品牌形象统一且有吸引力。
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="copyright">
+            <div>© 2023 Design by <a href="https://asorn.cn/" target="_blank">Asorn</a></div>
+            <span>|</span>
+            <div class="fillings">
+                <a href="https://asorn.cn/" target="_blank">chenlifei</a>
+            </div>
+        
+        </div>
+    </div>
+    <div class="widget">
+        <div class="shape-light"></div>
+        <div class="shape-star">
+            <div class="rising-stars rising-stars-visible">
+                <div style="height:1px;width:1px"></div>
+                <div style="height:2px;width:2px"></div>
+                <div style="height:1px;width:1px"></div>
+            </div>
+        </div>
+        <div class="shape-earth"></div>
+    </div>
+</body>
+<script src="./js/main.min.js"></script>
+<script src='./js/anime.js'></script>
+<script src='./js/firework.js'></script>
+</html>
